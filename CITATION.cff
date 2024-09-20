@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the following paper."
+authors:
+  - family-names: Bonati
+    given-names: Leonardo
+  - family-names: Shirkhani
+    given-names: Ravis
+  - family-names: Fiandrino
+    given-names: Claudio
+  - family-names: Maxenti
+    given-names: Stefano
+  - family-names: D'Oro
+    given-names: Salvatore
+  - family-names: Polese
+    given-names: Michele
+  - family-names: Melodia
+    given-names: Tommaso
+title: "Dataset for Twinning Commercial Network Traces on Experimental Open RAN Platforms"
+type: dataset
+date-released: "2024-09-19"
+license: GPL-3.0
+url: "https://github.com/wineslab/open-ran-commercial-traffic-twinning-dataset"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Bonati
+    given-names: Leonardo
+  - family-names: Shirkhani
+    given-names: Ravis
+  - family-names: Fiandrino
+    given-names: Claudio
+  - family-names: Maxenti
+    given-names: Stefano
+  - family-names: D'Oro
+    given-names: Salvatore
+  - family-names: Polese
+    given-names: Michele
+  - family-names: Melodia
+    given-names: Tommaso
+  title: "Twinning Commercial Network Traces on Experimental Open RAN Platforms"
+  collection-title: Proceedings of ACM WiNTECH
+  month: 11
+  year: 2024
