@@ -50,7 +50,7 @@ The dataset is available at the following [link](https://repository.library.nort
 - Base Station files:
     - `mgen-script-scope.mgen`: The MGEN script that twins the real-world traffic used for generating traffic for all the UEs in the experiment. 
     - `<IMSI>_metrics.csv`: PHY- and MAC-layer KMPs collected at the base station for each UE.
-    - `end_metrics.csv`: downlink bitrate and uplink bitrate for all the UEs in the experiment.
+    - `enb_metrics.csv`: downlink and uplink bitrate of the network, aggregated for all the UEs served by the base station.
     - `enb.log`: log file collected at the base station.
 - UE files: 
     - `mgen.log`: MGEN logs for the UE that are from the APP layer.
