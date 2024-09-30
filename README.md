@@ -56,4 +56,4 @@ The dataset is available at the following [link](https://repository.library.nort
     - `mgen.log`: MGEN logs for the UE that are from the APP layer.
     - `mgen.csv`: Same mgen.log data converted to a csv table.
     - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side. (?)
-    - `ue.log`: log file collected at each UE.
+    - `ue.log`: log file of the UE protocol stack.
