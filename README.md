@@ -43,8 +43,38 @@ The dataset is available at the following [link](https://repository.library.nort
 | Slicing 5 | 50 | 0 |
 
 # Dataset stucture
-- The dataset has the following structure: 3 clusters, 5 slicings, 2 schedualing. In total 30 combinations.
-    - cluster/slicing/schedualing
+- The dataset has the following structure: cluster_<#>/slicing_<#>/schedualing_<#>
+    - 3 clusters (cluster_1, cluster_2, cluster_3)
+    - 5 slicings (slicing_1, slicing_2, slicing_3, slicing_4, slicing_5)
+    - 2 schedualing (scheduling_0, scheduling_2)
+    Therefore, in total there are 30 combinations of configurations in the available experiments.
+- Here is a tree example of the available structure on the data for `RESERVATION-142634` in cluster_1, slicing_1, schedualing_0. 
+```
+├── cluster_1
+│   ├── slicing_1
+│   │   ├── scheduling_0
+│   │   │   ├── RESERVATION-142634
+│   │   │   │   ├── bs
+│   │   │   │   │   ├── 1010123456002_metrics.csv
+│   │   │   │   │   ├── 1010123456003_metrics.csv
+│   │   │   │   │   ├── 1010123456004_metrics.csv
+│   │   │   │   │   ├── 1010123456005_metrics.csv
+│   │   │   │   │   ├── 1010123456006_metrics.csv
+│   │   │   │   │   ├── 1010123456007_metrics.csv
+│   │   │   │   │   ├── 1010123456008_metrics.csv
+│   │   │   │   │   ├── 1010123456009_metrics.csv
+│   │   │   │   │   ├── enb.log
+│   │   │   │   │   ├── enb_metrics.csv
+│   │   │   │   │   ├── mgen-script-scope.mgn
+│   │   │   │   │   └── mgen.log
+│   │   │   │   ├── ue_001010123456002
+│   │   │   │   │   ├── mgen-script-scope.mgn
+│   │   │   │   │   ├── mgen.csv
+│   │   │   │   │   ├── mgen.log
+│   │   │   │   │   ├── ue.log
+│   │   │   │   │   └── ue_metrics.csv
+...
+```
 - Each experiment has a directory named `RESERVATION-<experiment_id>`
 - Inside each experiment directory, there is a directory named `bs` for the base station files, and there is one directory named `ue_<IMSI>` for each UE for the files related to that UE.
 - Base Station files:
@@ -54,6 +84,5 @@ The dataset is available at the following [link](https://repository.library.nort
     - `enb.log`: log file of the base station protocol stack.
 - UE files: 
     - `mgen.log`: Application-layer KPMs collected from MGEN.
-    - `mgen.csv`: Same mgen.log data converted to a csv table.
     - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side. (?)
     - `ue.log`: log file of the UE protocol stack.
