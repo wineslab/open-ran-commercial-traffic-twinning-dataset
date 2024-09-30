@@ -15,6 +15,18 @@ The dataset is available at the following [link](https://repository.library.nort
     - Users 1-4 demand Enhanced Mobile Broadband (eMBB) traffic
     - Users 5-8 demand Ultra Reliable and Low Latency Communications (URLLC) traffic
 - UE mobility: static
+
+| UE ID   | UE IMSI   |   Traffic Type  |
+|------------|------------|------------|
+| 1 | 1010123456002 | eMBB | 
+| 2 | 1010123456003 | eMBB |
+| 3 | 1010123456004 | eMBB |
+| 4 | 1010123456005 | eMBB | 
+| 5 | 1010123456006 | URLLC |
+| 6 | 1010123456007 | URLLC |
+| 7 | 1010123456008| URLLC | 
+| 8 | 1010123456009 | URLLC | 
+
 - Traffic: The traffic is twinned from a public dataset of LTE network from 3 BSs located in Madrid, Spain.
     - BS1: carrier frequency at 816 MHz
     - BS2: carrier frequency at 1835 MHz
