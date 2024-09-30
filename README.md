@@ -22,7 +22,7 @@ The dataset is available at the following [link](https://repository.library.nort
 - Number of slices for the BS: 2 (slice_id 0 for eMBB UEs and slice_id 1 for URLLC UEs)
 - Slicing configurations: There are 50 PRBs in total to allocate for the two slices.
 
-|  Slice Resouce Allocation  | Slice_id 0 (eMBB: UEs 1-4) PRBs  |  Slice_id 1 (URLLC: UEs 5-8) PRBs  |
+|  Slice Resouce Allocation  | Slice ID 0 (eMBB: UEs 1-4) PRBs  |  Slice ID 1 (URLLC: UEs 5-8) PRBs  |
 |------------|------------|------------|
 | Slicing 1 | 9 | 41 |
 | Slicing 2 | 21 | 29 |
