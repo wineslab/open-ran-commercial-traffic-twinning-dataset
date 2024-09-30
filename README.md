@@ -46,9 +46,9 @@ The dataset is available at the following [link](https://repository.library.nort
 - The dataset has the following structure: cluster_<#>/slicing_<#>/schedualing_<#>
     - 3 clusters (cluster_1, cluster_2, cluster_3)
     - 5 slicings (slicing_1, slicing_2, slicing_3, slicing_4, slicing_5)
-    - 2 schedualing (scheduling_0, scheduling_2)
+    - 2 schedualings (scheduling_0, scheduling_2)
     Therefore, in total there are 30 combinations of configurations in the available experiments.
-- Here is a tree example of the available structure on the data for `RESERVATION-142634` in cluster_1, slicing_1, schedualing_0. 
+- Here is a tree example of directory structure for `RESERVATION-142634` in cluster_1, slicing_1, schedualing_0. 
 ```
 ├── cluster_1
 │   ├── slicing_1
