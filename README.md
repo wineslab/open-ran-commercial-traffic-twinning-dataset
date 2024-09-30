@@ -53,7 +53,7 @@ The dataset is available at the following [link](https://repository.library.nort
     - `enb_metrics.csv`: downlink and uplink bitrate of the network, aggregated for all the UEs served by the base station.
     - `enb.log`: log file of the base station protocol stack.
 - UE files: 
-    - `mgen.log`: MGEN logs for the UE that are from the APP layer.
+    - `mgen.log`: Application-layer KPMs collected from MGEN.
     - `mgen.csv`: Same mgen.log data converted to a csv table.
     - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side. (?)
     - `ue.log`: log file of the UE protocol stack.
