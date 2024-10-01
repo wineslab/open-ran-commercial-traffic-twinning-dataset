@@ -95,7 +95,7 @@ The dataset is available at the following [link](https://repository.library.nort
     - `enb_metrics.csv`: downlink and uplink bitrate of the network, aggregated for all the UEs served by the base station.
     - `enb.log`: log file of the base station protocol stack.
 - UE files: 
-    - `mgen-script-scope.mgn`: The MGEN script that is used to indicate the listening port for each UE.
+    - `mgen-script-scope.mgn`: MGEN script running at the UE, used to start the MGEN listening process.
     - `mgen.csv`: Application-layer KPMs collected from MGEN logs and converted to a .csv file.
     - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side.
     - `ue.log`: log file of the UE protocol stack.
