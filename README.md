@@ -46,13 +46,14 @@ The dataset is available at the following [link](https://repository.library.nort
 - There are two compressed files available for downloading:
     - `open-ran-commercial-traffic-twinning-dataset-kmp`, which contains the metrics and the MGEN scripts.
     - `open-ran-commercial-traffic-twinning-dataset-log`, which contains the log files. 
-- The dataset has the following structure: cluster_<#>/slicing_<#>/schedualing_<#>
-    - 3 cluster configurations (cluster_1, cluster_2, cluster_3)
-    - 5 slicing configurations (slicing_1, slicing_2, slicing_3, slicing_4, slicing_5)
+- The dataset has the following structure: `cluster_<#>/slicing_<#>/schedualing_<#>`
+    - 3 cluster configurations (`cluster_1`, `cluster_2`, and `cluster_3`)
+    - 5 slicing configurations (`slicing_1`, `slicing_2`, `slicing_3`, `slicing_4`, and `slicing_5`)
     - 2 scheduling policies (scheduling_0, scheduling_2)
 - In total there are 30 combinations of configurations in the available experiments.
-- An example of a directory tree example for `RESERVATION-142634` in cluster_1, slicing_1, scheduling_0 for both dataset files.
-```
+- An example of a directory tree example for `RESERVATION-142634` in `cluster_1`, `slicing_1`, `scheduling_0` for both dataset files.
+
+```bash
 ├── cluster_1
 │   ├── slicing_1
 │   │   ├── scheduling_0
@@ -75,7 +76,7 @@ The dataset is available at the following [link](https://repository.library.nort
 ...
 ```
 
-```
+```bash
 ├── cluster_1
 │   ├── slicing_1
 │   │   ├── scheduling_0
