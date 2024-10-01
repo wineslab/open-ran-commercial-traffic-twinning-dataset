@@ -43,12 +43,13 @@ The dataset is available at the following [link](https://repository.library.nort
 | Slicing 5 | 50 | 0 |
 
 # Dataset stucture
+- There are two zip files available for downloading, `open-ran-commercial-traffic-twinning-dataset-kmp` which contains the metrics and the MGEN scripts, `open-ran-commercial-traffic-twinning-dataset-log` which contains the log files. 
 - The dataset has the following structure: cluster_<#>/slicing_<#>/schedualing_<#>
     - 3 clusters (cluster_1, cluster_2, cluster_3)
     - 5 slicings (slicing_1, slicing_2, slicing_3, slicing_4, slicing_5)
     - 2 schedualings (scheduling_0, scheduling_2)
     Therefore, in total there are 30 combinations of configurations in the available experiments.
-- Here is a tree example of directory structure for `RESERVATION-142634` in cluster_1, slicing_1, schedualing_0. 
+- Here is a tree example of directory structure for `RESERVATION-142634` in cluster_1, slicing_1, schedualing_0 for both datasets.
 ```
 ├── cluster_1
 │   ├── slicing_1
@@ -63,18 +64,27 @@ The dataset is available at the following [link](https://repository.library.nort
 │   │   │   │   │   ├── 1010123456007_metrics.csv
 │   │   │   │   │   ├── 1010123456008_metrics.csv
 │   │   │   │   │   ├── 1010123456009_metrics.csv
-│   │   │   │   │   ├── enb.log
 │   │   │   │   │   ├── enb_metrics.csv
 │   │   │   │   │   ├── mgen-script-scope.mgn
-│   │   │   │   │   └── mgen.log
 │   │   │   │   ├── ue_001010123456002
-│   │   │   │   │   ├── mgen-script-scope.mgn
 │   │   │   │   │   ├── mgen.csv
-│   │   │   │   │   ├── mgen.log
-│   │   │   │   │   ├── ue.log
+│   │   │   │   │   ├── mgen-script-scope.mgn
 │   │   │   │   │   └── ue_metrics.csv
 ...
 ```
+
+```
+├── cluster_1
+│   ├── slicing_1
+│   │   ├── scheduling_0
+│   │   │   ├── RESERVATION-142634
+│   │   │   │   ├── bs
+│   │   │   │   │   └── enb.log
+│   │   │   │   ├── ue_001010123456002
+│   │   │   │   │   └── ue.log
+...
+```
+
 - Each experiment has a directory named `RESERVATION-<experiment_id>`
 - Inside each experiment directory, there is a directory named `bs` for the base station files, and there is one directory named `ue_<IMSI>` for each UE for the files related to that UE.
 - Base Station files:
@@ -83,6 +93,7 @@ The dataset is available at the following [link](https://repository.library.nort
     - `enb_metrics.csv`: downlink and uplink bitrate of the network, aggregated for all the UEs served by the base station.
     - `enb.log`: log file of the base station protocol stack.
 - UE files: 
-    - `mgen.log`: Application-layer KPMs collected from MGEN.
-    - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side. (?)
+    - `mgen-script-scope.mgn`: The MGEN script that is used to indicate the listening port for each UE.
+    - `mgen.csv`: Application-layer KPMs collected from MGEN logs and converted to a .csv file.
+    - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side.
     - `ue.log`: log file of the UE protocol stack.
