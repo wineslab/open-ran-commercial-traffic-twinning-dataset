@@ -88,7 +88,7 @@ The dataset is available at the following [link](https://repository.library.nort
 ```
 
 - Each experiment has a directory named `RESERVATION-<experiment_id>`
-- Inside each experiment directory, there is a directory named `bs` for the base station files, and there is one directory named `ue_<IMSI>` for each UE for the files related to that UE.
+- Inside each experiment directory, there is a directory named `bs` for the base station files, as well as directories named `ue_<IMSI>`, one for each UE, that contains the files related to the specific UE.
 - Base Station files:
     - `mgen-script-scope.mgen`: MGEN script that twins the real-world traffic used for generating downlink traffic for the UEs in the experiment. 
     - `<IMSI>_metrics.csv`: PHY- and MAC-layer KPMs collected at the base station for each UE.
