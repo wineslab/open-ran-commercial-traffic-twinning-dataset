@@ -13,7 +13,7 @@ The dataset is available at the following [link](https://repository.library.nort
     - Policy 2: Proportionally fair (PF)
 - Number of User Equipments (UEs): 8
     - Users 1-4 belong to the enhanced Mobile Broadband (eMBB) slice
-    - Users 5-8 demand Ultra Reliable and Low Latency Communications (URLLC) traffic
+    - Users 5-8 belong to the Ultra Reliable and Low Latency Communications (URLLC) slice
 - UE mobility: static
 
 | UE ID   | UE IMSI   |   Traffic Type  |
