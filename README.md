@@ -97,5 +97,5 @@ The dataset is available at the following [link](https://repository.library.nort
 - UE files: 
     - `mgen-script-scope.mgn`: MGEN script running at the UE, used to start the MGEN listening process.
     - `mgen.csv`: Application-layer KPMs collected from MGEN logs and converted to a .csv file.
-    - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the ue side.
+    - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the UE side.
     - `ue.log`: log file of the UE protocol stack.
