@@ -91,7 +91,7 @@ The dataset is available at the following [link](https://repository.library.nort
 - Inside each experiment directory, there is a directory named `bs` for the base station files, and there is one directory named `ue_<IMSI>` for each UE for the files related to that UE.
 - Base Station files:
     - `mgen-script-scope.mgen`: MGEN script that twins the real-world traffic used for generating downlink traffic for the UEs in the experiment. 
-    - `<IMSI>_metrics.csv`: PHY- and MAC-layer KMPs collected at the base station for each UE.
+    - `<IMSI>_metrics.csv`: PHY- and MAC-layer KPMs collected at the base station for each UE.
     - `enb_metrics.csv`: downlink and uplink bitrate of the network, aggregated for all the UEs served by the base station.
     - `enb.log`: log file of the base station protocol stack.
 - UE files: 
