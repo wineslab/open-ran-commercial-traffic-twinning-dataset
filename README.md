@@ -51,7 +51,7 @@ The dataset is available at the following [link](https://repository.library.nort
     - 5 slicings (slicing_1, slicing_2, slicing_3, slicing_4, slicing_5)
     - 2 scheduling policies (scheduling_0, scheduling_2)
 - In total there are 30 combinations of configurations in the available experiments.
-- Here is a tree example of directory structure for `RESERVATION-142634` in cluster_1, slicing_1, schedualing_0 for both datasets.
+- An example of a directory tree example for `RESERVATION-142634` in cluster_1, slicing_1, scheduling_0 for both dataset files.
 ```
 ├── cluster_1
 │   ├── slicing_1
