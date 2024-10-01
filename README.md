@@ -12,7 +12,7 @@ The dataset is available at the following [link](https://repository.library.nort
     - Policy 0: Round-robin (RR)
     - Policy 2: Proportionally fair (PF)
 - Number of User Equipments (UEs): 8
-    - Users 1-4 demand Enhanced Mobile Broadband (eMBB) traffic
+    - Users 1-4 belong to the enhanced Mobile Broadband (eMBB) slice
     - Users 5-8 demand Ultra Reliable and Low Latency Communications (URLLC) traffic
 - UE mobility: static
 
