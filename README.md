@@ -43,7 +43,9 @@ The dataset is available at the following [link](https://repository.library.nort
 | Slicing 5 | 50 | 0 |
 
 # Dataset stucture
-- There are two zip files available for downloading, `open-ran-commercial-traffic-twinning-dataset-kmp` which contains the metrics and the MGEN scripts, `open-ran-commercial-traffic-twinning-dataset-log` which contains the log files. 
+- There are two zip files available for downloading:
+    - `open-ran-commercial-traffic-twinning-dataset-kmp` which contains the metrics and the MGEN scripts.
+    - `open-ran-commercial-traffic-twinning-dataset-log` which contains the log files. 
 - The dataset has the following structure: cluster_<#>/slicing_<#>/schedualing_<#>
     - 3 clusters (cluster_1, cluster_2, cluster_3)
     - 5 slicings (slicing_1, slicing_2, slicing_3, slicing_4, slicing_5)
