@@ -27,7 +27,7 @@ The dataset is available at the following [link](https://repository.library.nort
 | 7 | 1010123456008| URLLC | 
 | 8 | 1010123456009 | URLLC | 
 
-- Traffic: The traffic is twinned from a public dataset of LTE network from 3 BSs located in Madrid, Spain.
+- Traffic: The traffic is twinned from a public dataset of LTE network from 3 BSs located in Madrid, Spain, available at this [link](https://git2.networks.imdea.org/wng/madrid-lte-dataset).
     - BS1: carrier frequency at 816 MHz
     - BS2: carrier frequency at 1835 MHz
     - BS3: carrier frequency at 2650 MHz
