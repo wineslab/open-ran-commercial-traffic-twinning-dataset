@@ -97,6 +97,6 @@ The dataset is available at the following [link](https://repository.library.nort
     - `enb.log`: log file of the base station protocol stack.
 - UE files: 
     - `mgen-script-scope.mgn`: MGEN script running at the UE, used to start the MGEN listening process.
-    - `mgen.csv`: Application-layer KPMs collected from the MGEN logs and converted to a .csv file.
+    - `mgen.csv`: Application-layer KPMs collected from the MGEN logs and converted to a .csv file using the script `recv-to-csv.sh` from [mgen-tools](https://github.com/fg-networking/mgen-tools) git repository.
     - `ue_metrics.csv`: PHY- and MAC-layer KPMs collected at the UE side.
     - `ue.log`: log file of the UE cellular protocol stack.
